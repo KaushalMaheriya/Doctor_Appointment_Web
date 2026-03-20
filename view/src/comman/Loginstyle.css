@@ -1,0 +1,65 @@
+.mainbody{
+   
+    background-image:url('../Images/background.jpg');
+      background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loginbox{
+    
+    /* background:linear-gradient(rgb(35, 173, 247),rgb(23, 6, 119)); */
+     background-color: transparent;
+    border: 2px solid black;
+    width: 380px;
+    height: 350px;
+    border-radius: 10px;
+    position: absolute;
+    & h2{
+        display: flex;
+        justify-content: center;
+        margin-top: 2px;
+    }
+   
+    
+    & .a{
+        font-size: 16px;
+        margin: 10px 15px;
+        & p{
+            color: red;
+        }
+        & input{
+            margin-top: 5px;
+            width: 98%;
+            padding: 5px;
+            border-radius: 9px;
+            border: none;
+        }
+        & input:hover{
+            box-shadow:0px 0px 8px rgb(32, 32, 25);
+            
+
+        }
+    }
+  & button{
+    position: relative;
+    
+    font-size: 16px;
+    width: 90%;
+    background-color: rgb(1, 1, 11);
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 5px 16px;
+    color: antiquewhite;
+  }
+  & button:hover{
+    background-color: antiquewhite;
+    color: black;
+  }
+}
+label{
+    font-weight:600 ;
+}

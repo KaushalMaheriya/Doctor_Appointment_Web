@@ -1,0 +1,83 @@
+/* Center Layout */
+.appointment-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card */
+.appointment-card {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  width: 100%;
+  max-width:fit-content;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+.main_column{
+    display: flex;
+    gap: 10px;
+}
+
+.appointment-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  border-radius: 8px;
+  
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #4facfe;
+  outline: none;
+}
+
+/* Date + Time Row */
+.row {
+  display: flex;
+  gap: 2px;
+}
+
+/* Button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #2d8cf0;
+}
+
+/* Responsive */
+@media(max-width: 600px){
+  .row {
+    flex-direction: column;
+  }
+}

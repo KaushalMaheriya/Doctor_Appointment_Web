@@ -1,0 +1,26 @@
+.doctor-card {
+  width: 50%;
+  margin: 20px auto;
+  
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+}
+
+.doctor-name {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.doctor-details p {
+  margin: 8px 0;
+  padding: 5px 0;
+  font-size: 15px;
+  color: #555;
+}

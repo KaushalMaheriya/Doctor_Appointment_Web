@@ -1,0 +1,82 @@
+/* Glassmorphism background */
+.gradient-text {
+  background: linear-gradient(45deg, #de9d06, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.premium-navbar {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.8rem 0;
+  transition: all 0.3s ease;
+ z-index: 999; 
+}
+
+/* Brand */
+.premium-logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #f4f4f9 !important;
+
+}
+
+/* Links */
+.premium-link {
+  color: hsl(0, 23%, 94%) !important;
+  font-weight: 500;
+  margin: 0 0.6rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.premium-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  /* background: linear-gradient(90deg, #c6ffdd, #fbd786, #f7797d); */
+  background: linear-gradient(90deg,rgb(3, 3, 154),rgb(73, 73, 154),rgb(183, 183, 193));
+  transition: width 0.3s ease;
+}
+
+.premium-link:hover {
+  color: #344ddbbe !important;
+}
+
+.premium-link:hover::after {
+  width: 100%;
+}
+
+/* Button */
+.premium-btn {
+  background: linear-gradient(135deg, #fbd786, #f7797d);
+  color: #111;
+  font-weight: 600;
+  padding: 0.45rem 1.2rem;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.premium-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  color: #000;
+}
+
+/* Mobile tweaks */
+@media (max-width: 991px) {
+  .premium-navbar {
+    padding: 0.6rem 0;
+  }
+
+  .premium-link {
+    margin: 0.6rem 0;
+  }
+}

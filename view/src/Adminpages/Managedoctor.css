@@ -1,0 +1,91 @@
+
+
+.handledoctor{
+    background-color: #ccc;
+    margin: 5px ;
+    padding: 5px 0px;
+    border: 1px solid black;
+    border-radius: 16px;
+    & .firtrow{
+        display: flex;
+        margin: 20px 5px;
+     
+    }
+    & .second_row{
+        display: flex;
+        margin: 0px 5px 20px 5px;
+      
+    }
+    & label{
+        font-weight: 600;
+    }
+    & input{
+        margin-left: 5px;
+        border: none;
+        border-radius: 18px;
+        padding: 0px 4px;
+    }
+   & input:hover{
+        border-bottom:2px solid red;
+    }
+   & button{
+    padding: 3px 24px;
+   
+    border-radius: 18px;
+   }
+   & button:hover{
+    
+    background-color: rgb(5, 138, 38);
+   }
+}
+
+.table-container {
+  padding: 25px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.table-title {
+  margin-bottom: 15px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #7e1717;
+  margin-left: 40%;
+}
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.styled-table thead {
+  background: #2c3e50;
+  color: white;
+}
+
+.styled-table th {
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+}
+
+/* Rows */
+.styled-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Hover Effect */
+.styled-table tbody tr:hover {
+  background-color: #f1f7ff;
+  transition: 0.2s;
+}
+
+/* Zebra Striping */
+.styled-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}

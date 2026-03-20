@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bodyadmin{
+   background: linear-gradient(125deg, #000000, #434343, #ffffff);
+    height: 94vh;
+    width: 98vw;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & .boxadmin{
+        height: 300px;
+        border: none;
+        border-radius: 22px;
+        padding: 5px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: #ffffff; */
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    & .adminwel{
+       font-style: oblique;
+       font-weight: 700;
+       font-size: 45px;
+       background: linear-gradient(90deg, #ffffff,#222020, #000000,#ffffff);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+    }
+    & .adminp{
+        font-style: italic;
+        font-weight: 400;
+     font-size: 18px;
+    }
+}
